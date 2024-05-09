@@ -19,6 +19,7 @@ public class TestLinkerJava {
     @Test
     public void addWorker() {
    //Worker worker = new Worker("Работник"); // создали переменную "worker" с созданием нового работника, и boolean-утверждением "true"
+        //не совсем понятен тест, создать новго Worker няапрямую нельзя, т.к. это Interface
         Assertions.assertTrue(true, workers.add(worker)); // метод "Assertions.assertTrue()" проверяет, что предоставленное условие - правда
     }
 
